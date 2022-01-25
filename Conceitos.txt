@@ -1,0 +1,43 @@
+4 tipos de variáveis
+Instancia:objeto
+Classe:classe
+Local:dentro de métodos
+Parâmetro:na assinatura do método
+
+Tipos de dados
+Estática(forte)obrigado a definir o tipo da variavel no momento da criação
+Dinamica(fraco)não é obrigado a definila ao criar e ela sera definida durante a aplicação
+
+primitivo dados basicos homogeneos ex valor numerico,textuais
+composto ligado a orientação objeto heterogeneo
+
+textual textos
+numero numeros
+logico V/F
+objeto relacionados a orientação objeto
+
+
+OPERADORES ARITIMÉTICOS
+açoes sobre 1 ou mais alterandos pra se chegar a um resultado
+x++   x--  expressão: int i=++k; → i=k+1;
+++x   --x  expressão: int j=k--; → j=k→k=k-1
++, -, *, / e %(resto)
+atribuições com: =, +=, -=, *=, /= e %=
+
+CASTING
+transformação de uma determinada variável de tipo menos específico para um tipo mais específico
+ou vice-versa ex. transformar uma variavel inteiro em uma long
+tipos
+UPCAST(implicito) se vc muda um long pra inteiro a capacidade daquela variavel que era long
+é maior que inteiro então sobra espaço na memória assim não há necessidade de expressar isso
+no código ou seja um int sempre vai caber dentro de um long
+DOWNCAST(explicito) exemplo mais clássico é fazer uma divisão e o resultado sair como inteiro, de 
+forma que os números após a vírgula serão perdidos
+quando vc coloca uma variável long dentro de uma variável inteiro é possível
+que o long seja maior que a capacidade de armazenamento do inteiro, nesse caso haverá perda de
+dados pois o long vai preencher completamente o armazenamento inteiro e o que sobrar será perdido
+pode ser que o long seja um valor pequeno e caiba no inteiro, assim não haverá perda de dados.
+
+
+
+
